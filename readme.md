@@ -77,6 +77,8 @@ Now skip past the PC Instructions to [Cloning the Repository](#Cloning the Repos
 
 ## PC Instructions
 
+*Will add this later*
+
 ## Cloning the Repository
 
 Back in GitHub desktop, you should see the following screen:
@@ -88,7 +90,13 @@ you should see the `cis200` repository.
 
 ![](github_desktop_clone.png)
 
-Switch branches to a new branch.
+If you see the option to `Pull Origin`, then click that button to pull down others' changes. Otherwise, just move on to the next step.
+
+![](github_desktop_pull_origin.png)
+
+## Creating a New Branch
+
+Open the Branch dropdown to begin the process of creating a new branch.
 
 ![](github_desktop_new_branch.png)
 
@@ -96,4 +104,43 @@ The naming pattern for branches is `lowercase-separated-by-dashes`.
 Name this your `firstname-lastname` just as an example.
 
 ![](github_desktop_create_branch.png)
+![](github_desktop_name_branch.png)
+
+At this point, any changes you make will be on **your branch**, so they will not affect others.
+
+## Making Your Changes
+
+In your editor (VS Code or PyCharm), find the `contributors.md` file. 
+Add a new bullet point with your name.
+Save the file.
+
+![](add_to_contributors_md.png)
+
+Back in GitHub Desktop, you should see your
+changes highlighted. Green means addition.
+Red means subtraction.
+
+![](github_desktop_changes.png)
+
+Now it's time to **commit** your changes to your branch.
+Type a title into the box on the bottom left. 
+The convention is to write it like a "command". 
+Click on the Commit button when you're done.
+
+![](github_desktop_commit.png)
+
+Once you've committed your change, it's time to `publish` your branch.
+
+![](github_desktop_publish_branch.png)
+
+Next, create a `pull request` by clicking on the blue button in the same place.
+
+![](github_desktop_create_pr.png)
+
+This will open a browser window. Click on the green `Create pull request` button.
+
+![](github_open_pull_request.png)
+
+The last step is to request a review from me, `jack-hermanson`. Click on the `Reviewers` link, type in my name, and request a review.
+![](github_reviewers.png)
 
